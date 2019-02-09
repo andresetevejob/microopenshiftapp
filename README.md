@@ -78,4 +78,4 @@ Cette commande permet de donner un tag à votre image sur le hub de docker.
 Transfert de l'application vers le hub de docker
 
 
-DANS LO PROCHIANE SEANCE NOUS ALLONS VOIR COMMENT SCALER NOTRE APPLICATION AVEC OPENSHIFT
+# DANS LA PROCHIANE SEANCE NOUS ALLONS VOIR COMMENT SCALER NOTRE APPLICATION AVEC OPENSHIFT

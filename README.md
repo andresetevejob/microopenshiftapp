@@ -50,8 +50,30 @@ le flag -d permet de demarrer le container en background
 le flag --name precise le nom du container.Si il est absent docker donnera un nom par défaut
 
 -sudo docker ps
+
 permet d'afficher les container qui tournent sur la machine.vous devriez voir apparaitre le nom de
 votre container.si tel est le cas il est maintenant accessible à partir de l'url http://localhost:8080/api/hello
 
 -sudo docker logs microapp-img
+
 permet de voir les logs de notre container
+
+#Publier votre image sur le hub de Docker
+-Creez vous un compte sur le hub de docker
+
+-Connectez vous à votre espace sur le hub en ligne de commande sur votre machine :
+
+ sudo docker login
+
+-Transferer l'image vers le hub docker
+
+ docker tag microapp <your username>/microapp-tuto
+
+Cette commande permet de donner un tag à votre image sur le hub de docker.
+
+ sudo docker push <your username>/microapp-tuto
+
+Transfert de l'application vers le hub de docker
+
+
+DANS LO PROCHIANE SEANCE NOUS ALLONS VOIR COMMENT SCALER NOTRE APPLICATION AVEC OPENSHIFT

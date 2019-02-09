@@ -7,7 +7,7 @@ voir le lien suivant pour une installation sur les plateformes linux: https://do
 #Docker
 
 -Pour demarrer docker en tant que service sur votre système executez, la commande suivante :
-   sudo systemctl start docker
+   #####sudo systemctl start docker
 -Maintenant que  Docker est demarré, vous pouvez creer votre premier container avec la commande suivante :
    sudo docker run hello-world
 NB: si l'image n'existe pas sur votre machine,Docker ira le téléchargé depuis son hub distant.C'est un peu ce
